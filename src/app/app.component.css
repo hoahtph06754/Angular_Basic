@@ -1,0 +1,16 @@
+.active {
+  color: red !important;
+}
+.bg-info{
+  padding-left: 85px;
+  background-color: black !important;
+}
+.nav-link{
+  color: white !important;
+}
+form{
+  padding-right: 85px;
+}
+.nav-link:hover{
+  color: yellowgreen !important;
+}

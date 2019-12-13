@@ -1,0 +1,30 @@
+<div class="container">
+  
+    <h4 style="text-align: center;margin-top: 20px;">SẢN PHẨM</h4>
+    <hr width="5%" font-size="30px" align="center" color="orange" />
+  <div class="row">
+    <div class="col-3" *ngFor="let item of products">
+      <div class="card">
+        <img src="{{item.image}}" class="card-img-top px-2 pt-2" alt="...">
+        <a routerLink="/product/{{item.id}}" class="mx-auto"
+          style="margin-top: 7px; font-weight: bold;">{{item.name}}</a>
+        <p class="mx-auto text-dark">Mô tả sản phẩm: {{item.description}}</p>
+      </div>
+    </div>
+
+
+  </div>
+  <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-end">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+</div>

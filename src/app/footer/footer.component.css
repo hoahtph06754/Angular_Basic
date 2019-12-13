@@ -1,0 +1,23 @@
+.ro{
+    background-color: black;
+    color: blanchedalmond;
+}
+.hoa{
+    display: inline-grid;
+    grid-template-columns: 500px 300px 300px;
+    grid-column-gap: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.hoaaa{
+    padding-top: 20px;
+    padding-left: 85px;
+}
+ul{
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px;
+    grid-column-gap: 5px;
+}
+.fab{
+    color: white;
+}

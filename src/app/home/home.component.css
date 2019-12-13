@@ -1,0 +1,53 @@
+.content-card{
+    display: grid;
+    grid-column-gap: 35px;
+    grid-template-columns: auto auto auto;
+    width: 93%;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.row{
+    width: 1343px;
+}
+.content-container h4{
+    text-align: center;
+}
+.content-card h5{
+    text-align: center;
+}
+.card-img-top{
+    width: 100%;
+    height: 250px;
+}
+.content-banner img{
+    width: 93%;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.content-footer{
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: auto auto auto;
+    width: 96%;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.car{
+    width: 100%;
+    height: 350px;
+}
+.card-child{
+    font-size: 1.5em;
+    position: relative;
+    padding-top: 15px;
+}
+.hr{
+    position: absolute;
+    right: 0;
+    top: 1.5em;
+    width: 60%;
+    border-bottom: 1px solid black;
+}

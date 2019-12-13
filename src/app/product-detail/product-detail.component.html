@@ -1,0 +1,10 @@
+<div class="card" style="width: 50rem;">
+  <div *ngIf="product">
+    <img src="{{product.image}}" class="card-img-top">
+    <div class="card-body">
+      <p>Sản phẩm {{product.id}}</p>
+      <h5 class="card-title">{{product.name}}</h5>
+      <p class="card-text">Mô tả: {{product.description}}</p>
+    </div>
+  </div>
+</div>

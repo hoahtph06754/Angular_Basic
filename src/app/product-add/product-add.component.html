@@ -1,0 +1,13 @@
+<div class="container">
+  <div *ngIf="product">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+         [(ngModel)]="product.name" name="product-name">
+        <small id="name" class="form-text text-muted">We'll never share your name with anyone else.</small>
+      </div> 
+      <button type="submit" class="btn btn-primary" (click)="addProduct()">Submit</button>
+    </form>
+  </div>
+</div>
